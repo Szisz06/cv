@@ -7,24 +7,44 @@ export default function Home() {
       <div className="Introduction">
         <h1>Hello there!</h1>
         <p>
+          I am Szilvia Mócza and this is my{" "}
+          <span className="highlight">portfolio site</span> as a junior frontend
+          developer.
+          <span className="highlight">
+             I ventured into the IT world in 2022 when I started studying at
+            Számalk-Szalézi Technical School because I felt I was more than a
+            restaurant worker and wanted to do something that always presents
+            new challenges and allows me to create, as art is my passion.
+          </span>
           I am Szilvia Mócza and this is my portfolio site as a junior frontend
-          developer. I ventured into the IT world in 2022 when I started
-          studying at Számalk-Szalézi Technical School because I felt I was more
-          than a restaurant worker and wanted to do something that always
-          presents new challenges and allows me to create, as art is my passion.
-          I successfully graduated in 2023 with an average grade of 4, which is
-          considered an outstanding achievement. After that, I decided to apply
-          to the University of Dunaújváros for the engineering informatics
-          program. Although it initially seemed like it wasn't my field, I
-          completely fell in love with programming, what I do, and what I can
-          achieve in this profession. That's why I want to further develop my
-          skills by earning a degree. On this website, I showcase my past work,
-          their documentation, and photo galleries on the "My Works" page. On
-          the "About Me" page, I give an insight into my daily life, who I am,
-          and my future aspirations. Feel free to contact me if you think I
-          could be a valuable member of your team or if you would like to work
-          with me. Below, I list the main programming languages I have worked
-          with over the past two years.
+          developer.
+          <span className="highlight">
+            I successfully graduated in 2023 with an average grade of 4, which
+            is considered an outstanding achievement.
+          </span>
+          After that, I decided to apply to the University of Dunaújváros for
+          the engineering informatics program.
+          <span className="highlight">
+            I completely fell in love with programming, what I do, and what I
+            can achieve in this profession.
+          </span>
+          That's why I want to further develop my skills by earning a degree.
+        </p>
+        <p>
+          <span className="highlight">
+            On this website, I showcase my past work, their documentation, and
+            photo galleries on the 'My Works' page.
+          </span>
+          On the "About Me" page, I give an insight into my daily life, who I
+          am, and my future aspirations.
+          <span className="highlight">
+            Feel free to contact me if you think I could be a valuable member of
+            your team or if you would like to work with me.
+          </span>
+          <span className="highlight">
+            Below, I list the main programming languages I have worked with over
+            the past two years.
+          </span>
         </p>
         <div className="Skills">
           <ul></ul>
@@ -35,7 +55,10 @@ export default function Home() {
         <img src={me} className="App-logo" alt="logo" />
       </div>
       <footer>
-        <p>This application was made with React in the Visual Studio Code development environment and is 100% owned by Szilvia Mócza.</p>
+        <p>
+          This application was made with React in the Visual Studio Code
+          development environment and is 100% owned by Szilvia Mócza.
+        </p>
       </footer>
     </div>
   );

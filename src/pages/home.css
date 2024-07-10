@@ -5,12 +5,17 @@
 
 .Introduction {
   width: 60%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block; 
   text-align: center;
   background-color: #ebfef5;
-  padding: 20px;
+  padding: 50px;
+  font-size: 1.25rem;
+}
+
+.Introduction h1 {
+  margin-bottom: 20px; 
+  font-weight: bold;
+  color: #384B42;
 }
 
 .Image {
@@ -28,11 +33,16 @@
 }
 footer {
   background-color: #649c84;
+  color:  #d9eddf;
   padding: 10px;
   position: absolute;
   bottom: 0;
   width: 100%;
   margin-top: auto;
+}
+.highlight {
+  font-weight: bold;
+  color: #384B42;
 }
 
 @media (max-width: 800px) {
