@@ -1,0 +1,37 @@
+footer {
+  background-color: #649c84;
+  color: #d9eddf;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.icon {
+  font-size: 35px;
+  padding: 5px;
+  color: #d9eddf;
+  cursor: pointer;
+}
+
+.icon:hover {
+  color: #384b42;
+}
+
+.info-box {
+  background-color: #d9eddf;
+  color: #000000;
+  padding: 10px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 600px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

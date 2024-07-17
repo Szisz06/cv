@@ -26,6 +26,7 @@ export default App;
 
 //myworks, aboutme, contact oldalak elkészítése
 //fordító integrálása,
-//footer: github, linkedin iconok, szöveg középre, webes nézeten kívül nem jó a megjelenés!
-//skillek megadása, formázása - kész 07.06
-//home page szövegeinek szinezése, formázása telefonos és webes nézethez is - kész 07.06
+//footer: github, linkedin iconok, szöveg középre, webes nézeten kívül nem jó a megjelenés! - kész 07.17
+//skillek megadása, formázása - kész 07.16
+//home page szövegeinek szinezése, formázása telefonos és webes nézethez is - kész 07.16
+
