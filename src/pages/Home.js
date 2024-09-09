@@ -81,6 +81,15 @@ export default function Home() {
     </div>
   );
 }
+
+
+//ne lehessen görgőzni a főoldalon!
+//Contact oldal elkészítés + ötletek
+//Myworks oldal elkészítés 
+//BoozeNow oldal elkészítése
+//Portfolio oldal elkészítése
+
+
 /*
 Mócza Szilvia vagyok és ez az én bemutatkozó oldalam junior frontend fejlesztőként. 
 2022-ben csöppentem az IT világába, amikor elkezdtem a Számalk-Szalézi Technikum és Szakgimnáziumban tanulni, 

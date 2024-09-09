@@ -1,0 +1,16 @@
+.carousel-item img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.carousel {
+  max-width: 80%;
+  margin: auto;
+}

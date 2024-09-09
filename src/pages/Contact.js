@@ -1,5 +1,5 @@
-export default function Admin(){
+export default function Contact(){
     return(
-        <h1>Admin</h1>
+        <h1>Contact me !</h1>
     )
   }
