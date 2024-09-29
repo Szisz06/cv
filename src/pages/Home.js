@@ -1,4 +1,3 @@
-import Footer from "../view/Footer";
 import "./home.css";
 import me from "./me.png";
 import React from "react";
@@ -9,6 +8,89 @@ export default function Home() {
       <div className="main-content">
         <div className="Home">
           <div className="Introduction">
+            <h1>Üdv!</h1>
+            <p>
+              Mócza Szilvia vagyok és ez a
+              <span className="highlight"> portfólió oldalam </span> junior
+              frontend fejlesztőként.
+            </p>
+            <p>
+              2022-ben csöppentem az IT világába, amikor elkezdtem a
+              Számalk-Szalézi Technikum és Szakgimnáziumban tanulni, mert
+              <span className="highlight">
+                {" "}
+                úgy éreztem, hogy többre vagyok képes
+              </span>
+              , és valami olyat szeretnék csinálni, ami mindig új kihívások elé
+              állít és lehetőséget ad az alkotásra, mivel szenvedélyem a
+              művészet.
+              <span className="highlight">
+                {" "}
+                2024-ben sikeresen elvégeztem az iskolát{" "}
+              </span>
+              4-es átlaggal, ami kiemelkedő eredménynek számít.
+            </p>
+            <p>
+              Ezt követően döntöttem úgy, hogy jelentkezem a Dunaújvárosi
+              Egyetem mérnökinformatikus szakára.
+              <span className="highlight">
+                {" "}
+                Teljesen beleszerettem a programozásba, abba, amit csinálok, és
+                abba, amit ezen a szakmán belül elérhetek.{" "}
+              </span>
+              Ezért szeretném tovább fejleszteni a tudásomat egy diploma
+              megszerzésével.
+            </p>
+            <p>
+              Ezen a weboldalon bemutatom az eddigi munkáimat, azok
+              dokumentációját, valamint képgalériákat a{" "}
+              <a href="/my-works" className="highlight">
+                Munkáim
+              </a>{" "}
+              oldalon. A{" "}
+              <a href="/about-me" className="highlight">
+                Rólam
+              </a>{" "}
+              oldalon betekintést adok a hétköznapjaimba, hogy ki vagyok és mik
+              a jövőbeni terveim. Az elérhetőségeimet{" "}
+              <a href="/contact" className="highlight">
+                ITT
+              </a>{" "}
+              találja, ha úgy gondolja, hogy hasznos tagja lehetnék a
+              csapatának, vagy ha szívesen dolgozna velem együtt.
+            </p>
+            <p>
+              <span className="highlight">
+                {" "}
+                Lentebb felsorolom a főbb programozási nyelveket, amelyekkel az
+                elmúlt két évben dolgoztam.
+              </span>
+            </p>
+
+            <div className="Skills">
+              <ul>
+                <li> HTML</li>
+                <li> CSS</li>
+                <li> JavaScript</li>
+                <li> jQuery</li>
+                <li> React</li>
+                <li> SQL</li>
+                <li> Laravel</li>
+                <li> Python</li>
+                <li> Java</li>
+              </ul>
+            </div>
+          </div>
+          <div className="Image">
+            <img src={me} alt="logo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/*
             <h1>Hello there!</h1>
             <p>
               I am Szilvia Mócza and this is my{" "}
@@ -58,50 +140,4 @@ export default function Home() {
               </span>{" "}
               I have worked with over the past two years.
             </p>
-            <div className="Skills">
-              <ul>
-                <li> HTML</li>
-                <li> CSS</li>
-                <li> JavaScript</li>
-                <li> jQuery</li>
-                <li> React</li>
-                <li> SQL</li>
-                <li> Laravel</li>
-                <li> Python</li>
-                <li> Java</li>
-              </ul>
-            </div>
-          </div>
-          <div className="Image">
-            <img src={me}  alt="logo" />
-          </div>
-        </div>
-      </div>
-      <Footer />
-    </div>
-  );
-}
-
-
-//ne lehessen görgőzni a főoldalon!
-//Contact oldal elkészítés + ötletek
-//Myworks oldal elkészítés 
-//BoozeNow oldal elkészítése
-//Portfolio oldal elkészítése
-
-
-/*
-Mócza Szilvia vagyok és ez az én bemutatkozó oldalam junior frontend fejlesztőként. 
-2022-ben csöppentem az IT világába, amikor elkezdtem a Számalk-Szalézi Technikum és Szakgimnáziumban tanulni, 
-mert úgy éreztem, hogy több vagyok egy éttermi dolgozónál, és valami olyat szeretnék csinálni, ami mindig új 
-kihívások elé állít és lehetőséget ad az alkotásra, mivel szenvedélyem a művészet. 2023-ban sikeresen végeztem el 
-az iskolát 4-es átlaggal, ami kiemelkedő eredménynek számít. Ezt követően döntöttem úgy, hogy jelentkezem a 
-Dunaújvárosi Egyetem mérnökinformatikus szakára. Bár kezdetben úgy tűnt, hogy ez nem az én világom, teljesen 
-beleszerettem a programozásba, abba, amit csinálok, és abba, amit ezen a szakmán belül elérhetek. Ezért szeretném 
-még hatékonyabban továbbfejleszteni a tudásomat egy diploma megszerzésével.
-
-Ezen a weboldalon bemutatom az eddigi munkáimat, azok dokumentációját, valamint képgalériákat a "Munkáim" oldalon. 
-A "Rólam" oldalon pedig betekintést adok a hétköznapjaimba, az életembe, és hogy milyen ember vagyok, mik az elképzeléseim 
-a jövőmet illetően. Bátran lépjen velem kapcsolatba, ha úgy gondolja, hogy hasznos tagja lehetnék a csapatának, vagy ha szívesen 
-dolgozna velem együtt. Lentebb felsorolom a főbb programozási nyelveket, amelyekkel az elmúlt 2 évben dolgoztam.
 */

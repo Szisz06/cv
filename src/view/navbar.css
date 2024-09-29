@@ -48,8 +48,6 @@
   }
 }
 
-/*Animation */
-
 .text span {
   text-transform: uppercase;
   padding: 5px;
@@ -67,6 +65,15 @@
   }
 
   50% {
-    transform: scale(1.2) translateY(-15px);
+    transform: scale(1.2) translateY(-10px);
+  }
+}
+
+@media (max-width: 800px) {
+  .text span {
+    font-size: 1rem;
+  }
+  .navbar {
+    padding: 10px;
   }
 }

@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import "./footer.css";
 
 const Footer = () => {
-  const [showInfo, setShowInfo] = useState(false); // Add this line
+  const [showInfo, setShowInfo] = useState(false);
   const navigate = useNavigate();
 
   const handleMailClick = () => {

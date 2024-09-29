@@ -17,17 +17,17 @@ export default function NoPage() {
         margin: "50px",
       }}
     >
-      <h2>Oh, something went wrong!</h2>
+      <h2>Hoppá, valami nem jó!</h2>
       <button
         style={{
           margin: "50px ",
           backgroundColor: "#d9eddf",
-          color:" #000000",
+          color: " #000000",
         }}
         className="btn btn-dark"
         onClick={handleBackToHomeClick}
       >
-        Click me to get back to the home page!
+        Kattints rám!
       </button>
     </div>
   );

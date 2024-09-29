@@ -1,0 +1,96 @@
+.my-works {
+  background-color: #ebfef5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
+  max-width: 100%;
+}
+
+.my-works h1 {
+  color: #384b42;
+  text-align: center;
+  font-weight: bold;
+}
+
+.card-container {
+  max-width: 80%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 80%;
+  margin: 40px auto;
+  background-color: #d9eddf;
+  border-radius: 10px;
+  border: 5px solid #000;
+  overflow: hidden;
+  opacity: 0;
+  position: relative;
+}
+
+.card-body {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-title {
+  color: #384b42;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.carousel {
+  max-width: 100%;
+  margin: auto;
+}
+
+.carousel-item img {
+  width: 00%;
+  height: 575px;
+  object-fit: cover;
+  border: 2px solid #000;
+}
+
+button {
+  color: #ebfef5;
+  background-color: #384b42;
+  padding: 15px 30px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+}
+
+.card.boozenow {
+  transform: translateX(100%);
+  animation: slideInRight 3s forwards;
+}
+
+@keyframes slideInRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.card.portfolio {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: transform 2s ease-out, opacity 1s ease-out;
+}
+
+.card.portfolio.visible {
+  transform: translateX(0);
+  opacity: 1;
+}

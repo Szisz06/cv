@@ -11,10 +11,16 @@ h1 {
   padding: 100px;
 }
 
-h3 {
-  text-align: center;
+h4 {
   margin: 0 auto;
   color: #384b42;
   width: 80%;
   white-space: pre-wrap;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1550px) {
+  .timeline {
+    display: none;
+  }
 }

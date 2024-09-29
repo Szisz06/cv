@@ -9,7 +9,11 @@ function MyGalery() {
         <Image src={require("./mygalery/Kicsi1.jpg")} alt="First slide" fluid />
       </Carousel.Item>
       <Carousel.Item>
-        <Image src={require("./mygalery/Kicsi2.jpg")} alt="Second slide" fluid />
+        <Image
+          src={require("./mygalery/Kicsi2.jpg")}
+          alt="Second slide"
+          fluid
+        />
       </Carousel.Item>
       <Carousel.Item>
         <Image src={require("./mygalery/Kicsi3.jpg")} alt="Third slide" fluid />
