@@ -17,7 +17,7 @@ const Navbar = () => {
           </div>
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <Link className="nav-link" to="/">
+              <Link className="nav-link" to="/cv">
                 Kezdőoldal
               </Link>
             </li>
