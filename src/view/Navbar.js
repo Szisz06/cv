@@ -22,17 +22,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/my-works">
+              <Link className="nav-link" to="my-works">
                 Munkáim
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about-me">
+              <Link className="nav-link" to="about-me">
                 Rólam
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/contact">
+              <Link className="nav-link" to="contact">
                 Kapcsolat
               </Link>
             </li>

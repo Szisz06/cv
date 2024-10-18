@@ -1,7 +1,7 @@
 export default function AboutMeText() {
   return (
     <div>
-      <h1>Általános és Középiskolai Évek és Eredmények</h1>
+      <h1>Általános- és Középiskolai Évek és Eredmények</h1>
       <h4>
         Debrecenbe nőttem fel. Itt a Vénkerti Általános Iskola és Alapfokú
         Művészeti Iskolába jártam. 3-4. osztályban országos matematika
