@@ -4,7 +4,7 @@ export default function NoPage() {
   const navigate = useNavigate();
 
   const handleBackToHomeClick = () => {
-    navigate("/cv");
+    navigate("/");
   };
 
   return (
